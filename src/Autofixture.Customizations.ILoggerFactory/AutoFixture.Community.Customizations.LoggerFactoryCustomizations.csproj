@@ -8,8 +8,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="AutoFixture" Version="4.15.0" />
-    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="5.0.0" />
+    <PackageReference Include="AutoFixture" Version="4.*" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="*" />
   </ItemGroup>
 
 </Project>

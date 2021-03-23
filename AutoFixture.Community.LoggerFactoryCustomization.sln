@@ -7,6 +7,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutoFixture.Community.Custo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutoFixture.Customizations.LoggerFactoryCustomizations.Tests", "tests\AutoFixture.Customizations.LoggerFactoryCustomization.Tests\AutoFixture.Customizations.LoggerFactoryCustomizations.Tests.csproj", "{3C1F14B8-3CD3-4E38-813D-BF6A8BDC9B00}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Global", "Global", "{FAB26275-B549-4204-9E65-6AE883260C04}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		README.md = README.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
