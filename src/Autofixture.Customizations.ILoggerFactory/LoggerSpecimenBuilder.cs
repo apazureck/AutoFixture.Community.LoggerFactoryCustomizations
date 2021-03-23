@@ -3,7 +3,7 @@ using Microsoft.Extensions.Logging;
 using System;
 using System.Linq;
 
-namespace AutoFixture.Customizations.LoggerFactoryCustomization
+namespace AutoFixture.Customizations.LoggerFactoryCustomizations
 {
     internal class LoggerSpecimenBuilder : ISpecimenBuilder
     {
@@ -13,6 +13,7 @@ namespace AutoFixture.Customizations.LoggerFactoryCustomization
         {
             this.loggerFactory = loggerFactory;
         }
+
         public object Create(object request, ISpecimenContext context)
         {
             if (request is System.Reflection.ParameterInfo i)

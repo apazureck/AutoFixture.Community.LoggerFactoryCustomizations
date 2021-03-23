@@ -1,3 +1,3 @@
 ﻿using System.Runtime.CompilerServices;
 
-[assembly: InternalsVisibleTo("AutoFixture.Customizations.LoggerFactoryCustomization.Tests")]
+[assembly: InternalsVisibleTo("AutoFixture.Customizations.LoggerFactoryCustomizations.Tests")]

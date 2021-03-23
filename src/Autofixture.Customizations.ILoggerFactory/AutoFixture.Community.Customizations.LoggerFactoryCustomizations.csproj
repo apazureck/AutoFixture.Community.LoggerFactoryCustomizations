@@ -2,9 +2,9 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <RootNamespace>AutoFixture.Customizations.LoggerFactoryCustomization</RootNamespace>
-    <AssemblyName>AutoFixture.Customizations.LoggerFactoryCustomization</AssemblyName>
-    <Version>0.1.0</Version>
+    <RootNamespace>AutoFixture.Community.Customizations.LoggerFactoryCustomizations</RootNamespace>
+    <AssemblyName>AutoFixture.Community.Customizations.LoggerFactoryCustomizations</AssemblyName>
+    <Version>1.0.0</Version>
   </PropertyGroup>
 
   <ItemGroup>

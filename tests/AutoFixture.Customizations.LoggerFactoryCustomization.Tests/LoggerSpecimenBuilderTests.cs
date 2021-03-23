@@ -1,12 +1,10 @@
-﻿using AutoFixture.Kernel;
+﻿using AutoFixture.Customizations.LoggerFactoryCustomizations;
+using AutoFixture.Kernel;
 using FluentAssertions;
 using Microsoft.Extensions.Logging;
 using Moq;
 using Objectivity.AutoFixture.XUnit2.AutoMoq.Attributes;
-using System;
-using System.Collections.Generic;
 using System.Reflection;
-using System.Text;
 using Xunit;
 
 namespace AutoFixture.Customizations.LoggerFactoryCustomization.Tests

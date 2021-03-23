@@ -1,9 +1,9 @@
-﻿using AutoFixture.Customizations.LoggerFactoryCustomization;
+﻿using AutoFixture.Customizations.LoggerFactoryCustomizations;
 using Microsoft.Extensions.Logging;
 
 namespace AutoFixture
 {
-    public static class AutofixtureRegsiterLoggerFactory
+    public static class AutofixtureRegsiterLoggerFactoryExtension
     {
         public static void RegisterLoggerFactory(this IFixture fixture, ILoggerFactory loggerFactory)
         {
