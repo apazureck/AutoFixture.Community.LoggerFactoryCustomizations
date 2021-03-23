@@ -1,4 +1,4 @@
-# AutoFixture.Customizations.LoggerFactoryCustomization
+# AutoFixture.Community.LoggerFactoryCustomizations
 
 Extension to easily inject the abstract ILoggerFactory to your device under test.
 
