@@ -4,9 +4,11 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <RootNamespace>AutoFixture.Community.Customizations.LoggerFactory</RootNamespace>
     <AssemblyName>AutoFixture.Community.Customizations.LoggerFactory</AssemblyName>
-    <Version>1.0.0</Version>
+    <Version>1.0.1</Version>
     <Authors>Andreas Pazureck</Authors>
-    <Copyright>2020 Andreas Pazureck</Copyright>
+    <Copyright>Copyright 2020 Andreas Pazureck</Copyright>
+    <PackageDescription>Adds extension methods to register the ILoggerFactory abstraction to a fixture. The fixture will create the loggers from the given loggerfactory, if any ILogger&lt;T&gt; is injected in a class constructor, which is created by the fixture.</PackageDescription>
+    
   </PropertyGroup>
 
   <ItemGroup>
