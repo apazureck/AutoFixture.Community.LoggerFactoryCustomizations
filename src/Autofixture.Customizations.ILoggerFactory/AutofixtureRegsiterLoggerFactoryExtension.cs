@@ -1,4 +1,4 @@
-﻿using AutoFixture.Customizations.LoggerFactoryCustomizations;
+﻿using AutoFixture.Customizations.LoggerFactory;
 using Microsoft.Extensions.Logging;
 
 namespace AutoFixture

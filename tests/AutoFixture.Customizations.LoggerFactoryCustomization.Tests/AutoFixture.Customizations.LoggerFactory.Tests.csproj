@@ -23,7 +23,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\Autofixture.Customizations.ILoggerFactory\AutoFixture.Community.Customizations.LoggerFactoryCustomizations.csproj" />
+    <ProjectReference Include="..\..\src\Autofixture.Customizations.ILoggerFactory\AutoFixture.Community.Customizations.LoggerFactory.csproj" />
   </ItemGroup>
 
 </Project>

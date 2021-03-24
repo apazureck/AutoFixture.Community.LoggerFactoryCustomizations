@@ -1,4 +1,4 @@
-﻿using AutoFixture.Customizations.LoggerFactoryCustomizations;
+﻿using AutoFixture.Customizations.LoggerFactory;
 using AutoFixture.Kernel;
 using FluentAssertions;
 using Microsoft.Extensions.Logging;
@@ -7,7 +7,7 @@ using Objectivity.AutoFixture.XUnit2.AutoMoq.Attributes;
 using System.Reflection;
 using Xunit;
 
-namespace AutoFixture.Customizations.LoggerFactoryCustomization.Tests
+namespace AutoFixture.Customizations.LoggerFactory.Tests
 {
     public class LoggerSpecimenBuilderTests
     {

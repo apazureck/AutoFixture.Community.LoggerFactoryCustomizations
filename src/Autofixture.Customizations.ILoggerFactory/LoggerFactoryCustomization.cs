@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.Logging;
 
-namespace AutoFixture.Customizations.LoggerFactoryCustomizations
+namespace AutoFixture.Customizations.LoggerFactory
 {
     internal class LoggerFactoryCustomization : ICustomization
     {

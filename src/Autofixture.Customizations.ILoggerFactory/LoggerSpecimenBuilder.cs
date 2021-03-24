@@ -3,7 +3,7 @@ using Microsoft.Extensions.Logging;
 using System;
 using System.Linq;
 
-namespace AutoFixture.Customizations.LoggerFactoryCustomizations
+namespace AutoFixture.Customizations.LoggerFactory
 {
     internal class LoggerSpecimenBuilder : ISpecimenBuilder
     {

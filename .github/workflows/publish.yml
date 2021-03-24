@@ -21,10 +21,10 @@ jobs:
         uses: rohith/publish-nuget@v2
         with:
           # Filepath of the project to be packaged, relative to root of repository
-          PROJECT_FILE_PATH: src/Autofixture.Customizations.ILoggerFactory/AutoFixture.Community.Customizations.LoggerFactoryCustomizations.csproj
+          PROJECT_FILE_PATH: src/Autofixture.Customizations.ILoggerFactory/AutoFixture.Community.Customizations.LoggerFactory.csproj
           
           # NuGet package id, used for version detection & defaults to project name
-          PACKAGE_NAME: AutoFixture.Community.LoggerFactoryCustomizations
+          PACKAGE_NAME: AutoFixture.Community.LoggerFactory
           
           # Filepath with version info, relative to root of repository & defaults to PROJECT_FILE_PATH
           # VERSION_FILE_PATH: Directory.Build.props
